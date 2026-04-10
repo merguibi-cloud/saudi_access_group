@@ -16,7 +16,7 @@ import teamImage from "../../assets/027b46feb5b9831294bb741e9c38ceee7642765f.png
  * - Dots: Custom styling with Gold SAG active state
  * - Card Structure: Image (384px height) + Content section with gap
  * - Images: Use figma:asset imports or replace with WordPress media
- * - Color Scheme: Deep Blue (#003366) and Gold SAG (#C29A3B)
+ * - Color Scheme: Deep Blue (#1C1C1E) and Gold SAG (#B87333)
  */
 
 const founders = [
@@ -50,7 +50,7 @@ function NextArrow(props: any) {
     <button
       onClick={onClick}
       className="absolute -right-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full flex items-center justify-center hover:shadow-lg transition-all group"
-      style={{ backgroundColor: '#003366' }}
+      style={{ backgroundColor: '#1C1C1E' }}
     >
       <ChevronRight className="w-6 h-6 text-white group-hover:translate-x-0.5 transition-transform" />
     </button>
@@ -63,7 +63,7 @@ function PrevArrow(props: any) {
     <button
       onClick={onClick}
       className="absolute -left-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full flex items-center justify-center hover:shadow-lg transition-all group"
-      style={{ backgroundColor: '#003366' }}
+      style={{ backgroundColor: '#1C1C1E' }}
     >
       <ChevronLeft className="w-6 h-6 text-white group-hover:-translate-x-0.5 transition-transform" />
     </button>
@@ -102,7 +102,7 @@ export function FoundersSection() {
       </div>
     ),
     customPaging: () => (
-      <button className="w-3 h-3 rounded-full bg-black/20 hover:bg-[#C29A3B] transition-all" />
+      <button className="w-3 h-3 rounded-full bg-black/20 hover:bg-[#B87333] transition-all" />
     )
   };
 
@@ -114,17 +114,17 @@ export function FoundersSection() {
 
         {/* ELEMENTOR: Header Section - Text Align Center, Margin Bottom: 64px */}
         <div className="flex flex-col gap-6 items-center text-center mb-16 max-w-4xl mx-auto">
-          {/* ELEMENTOR: Text widget - Gold SAG (#C29A3B), Uppercase, Letter Spacing 0.2em */}
-          <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+          {/* ELEMENTOR: Text widget - Gold SAG (#B87333), Uppercase, Letter Spacing 0.2em */}
+          <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
             Les Fondateurs
           </p>
 
           {/* ELEMENTOR: Heading (H2) - Font Size: 48px (Desktop), 36px (Mobile), Deep Blue */}
-          <h2 className="text-4xl md:text-5xl font-light leading-tight" style={{ color: '#003366' }}>
+          <h2 className="text-4xl md:text-5xl font-light leading-tight" style={{ color: '#1C1C1E' }}>
             Une approche fondée sur{" "}
-            <span className="font-serif italic" style={{ color: '#C29A3B' }}>le réseau</span>{" "}
+            <span className="font-serif italic" style={{ color: '#B87333' }}>le réseau</span>{" "}
             et la{" "}
-            <span className="font-serif italic" style={{ color: '#C29A3B' }}>complémentarité</span>
+            <span className="font-serif italic" style={{ color: '#B87333' }}>complémentarité</span>
           </h2>
 
           {/* ELEMENTOR: Text Editor - Black 70%, Font Size: 18px */}
@@ -149,7 +149,7 @@ export function FoundersSection() {
                   <div
                     className="bg-white border-2 rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-lg"
                     style={{ borderColor: 'rgba(0,0,0,0.1)' }}
-                    onMouseEnter={(e) => e.currentTarget.style.borderColor = '#003366'}
+                    onMouseEnter={(e) => e.currentTarget.style.borderColor = '#1C1C1E'}
                     onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(0,0,0,0.1)'}
                   >
 
@@ -166,7 +166,7 @@ export function FoundersSection() {
                       <div
                         className="absolute inset-0"
                         style={{
-                          background: 'linear-gradient(to top, rgba(0,51,102,0.8) 0%, rgba(0,0,0,0.4) 50%, transparent 100%)'
+                          background: 'linear-gradient(to top, rgba(28,28,30,0.8) 0%, rgba(0,0,0,0.4) 50%, transparent 100%)'
                         }}
                       />
                     </div>
@@ -174,11 +174,11 @@ export function FoundersSection() {
                     {/* ELEMENTOR: Content Section - Padding: 32px, Flexbox Column, Gap: 8px */}
                     <div className="p-8 flex flex-col gap-3">
                       {/* ELEMENTOR: Heading (H3) - Font Size: 24px, Deep Blue */}
-                      <h3 className="text-2xl font-light" style={{ color: '#003366' }}>
+                      <h3 className="text-2xl font-light" style={{ color: '#1C1C1E' }}>
                         {founder.name}
                       </h3>
                       {/* ELEMENTOR: Text widget - Gold SAG, Uppercase, Font Size: 14px */}
-                      <p className="text-sm uppercase tracking-wider" style={{ color: '#C29A3B' }}>
+                      <p className="text-sm uppercase tracking-wider" style={{ color: '#B87333' }}>
                         {founder.title}
                       </p>
                       {/* ELEMENTOR: Text widget - Black 60%, Font Size: 14px */}
@@ -200,7 +200,7 @@ export function FoundersSection() {
           display: none;
         }
         .slick-dots li.slick-active button {
-          background-color: #C29A3B;
+          background-color: #B87333;
           width: 2rem;
         }
       `}</style>

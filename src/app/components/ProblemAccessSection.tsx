@@ -1,7 +1,7 @@
 import { FileText, Users, Globe } from "lucide-react";
 
 /* ELEMENTOR CONVERSION NOTES:
- * - Section: Background Deep Blue (#003366), Padding: 128px 0
+ * - Section: Background Deep Blue (#1C1C1E), Padding: 128px 0
  * - Layout: Flexbox Column, Gap: 64px
  * - Grid: 3 columns (Desktop), 1 column (Mobile)
  * - Typography: White text on dark blue background
@@ -29,22 +29,22 @@ const problems = [
 
 export function ProblemAccessSection() {
   return (
-    <section className="relative py-32 overflow-hidden" style={{ backgroundColor: '#003366' }}>
+    <section className="relative py-32 overflow-hidden" style={{ backgroundColor: '#1C1C1E' }}>
 
       {/* ELEMENTOR: Container - Max Width: 1280px, Padding: 0 32px, Flexbox Column, Gap: 64px */}
       <div className="relative z-10 max-w-7xl mx-auto px-8 flex flex-col gap-16">
 
         {/* ELEMENTOR: Header Section - Text Align Center, Flexbox Column, Gap: 24px */}
         <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto">
-          {/* ELEMENTOR: Text widget - Gold SAG (#C29A3B), Uppercase, Font Size: 14px, Letter Spacing: 0.2em */}
-          <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+          {/* ELEMENTOR: Text widget - Gold SAG (#B87333), Uppercase, Font Size: 14px, Letter Spacing: 0.2em */}
+          <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
             Le Défi
           </p>
 
           {/* ELEMENTOR: Heading widget (H2) - Font Size: 56px (Desktop), 40px (Mobile), White */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight">
             Un environnement{" "}
-            <span className="font-serif italic" style={{ color: '#C29A3B' }}>exigeant</span>
+            <span className="font-serif italic" style={{ color: '#B87333' }}>exigeant</span>
           </h2>
 
           <p className="text-xl text-white/70 leading-relaxed">
@@ -62,7 +62,7 @@ export function ProblemAccessSection() {
             >
               {/* ELEMENTOR: Icon - Custom per problem, Gold SAG color, 24x24px */}
               <div className="shrink-0 mt-1">
-                <problem.icon className="w-6 h-6" style={{ color: '#C29A3B' }} />
+                <problem.icon className="w-6 h-6" style={{ color: '#B87333' }} />
               </div>
 
               {/* ELEMENTOR: Content Column - Flexbox Column, Gap: 8px */}

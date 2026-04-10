@@ -4,7 +4,7 @@ import { TrendingUp, Building2, Landmark, Globe } from "lucide-react";
  * - Section: Background White, Padding: 128px 0
  * - Layout: Flexbox Column, Gap: 64px
  * - No Motion animations - static, institutional design
- * - Color Scheme: Deep Blue (#003366) for titles, Gold SAG (#C29A3B) for accents
+ * - Color Scheme: Deep Blue (#1C1C1E) for titles, Gold SAG (#B87333) for accents
  * - Data-driven, sourced content approach
  */
 
@@ -39,15 +39,15 @@ export function Vision2030Section() {
 
         {/* ELEMENTOR: Header Section - Text Align Center, Flexbox Column, Gap: 24px */}
         <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto">
-          {/* ELEMENTOR: Text widget - Gold SAG (#C29A3B), Uppercase, Font Size: 14px, Letter Spacing: 0.2em */}
-          <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+          {/* ELEMENTOR: Text widget - Gold SAG (#B87333), Uppercase, Font Size: 14px, Letter Spacing: 0.2em */}
+          <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
             Le Marché
           </p>
 
           {/* ELEMENTOR: Heading widget (H2) - Font Size: 56px (Desktop), 40px (Mobile), Deep Blue */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1C1C1E' }}>
             Pourquoi{" "}
-            <span className="font-serif italic" style={{ color: '#C29A3B' }}>l'Arabie Saoudite ?</span>
+            <span className="font-serif italic" style={{ color: '#B87333' }}>l'Arabie Saoudite ?</span>
           </h2>
 
           {/* ELEMENTOR: Text Editor widget - Black 70%, Font Size: 20px, Max Width: 896px */}
@@ -74,14 +74,14 @@ export function Vision2030Section() {
             </p>
 
             {/* ELEMENTOR: Key Insight Box - Background Light Beige, Border Left Gold, Padding */}
-            <div className="border-l-4 rounded-lg p-6" style={{ backgroundColor: '#FAF0E6', borderColor: '#C29A3B' }}>
-              <p className="text-lg font-medium leading-relaxed" style={{ color: '#003366' }}>
+            <div className="border-l-4 rounded-lg p-6" style={{ backgroundColor: '#FAFAF8', borderColor: '#B87333' }}>
+              <p className="text-lg font-medium leading-relaxed" style={{ color: '#1C1C1E' }}>
                 Le défi n'est plus d'identifier le potentiel, mais de savoir y accéder efficacement.
               </p>
             </div>
 
             {/* ELEMENTOR: Filtering Statement - Italic text */}
-            <p className="text-lg italic leading-relaxed" style={{ color: '#003366' }}>
+            <p className="text-lg italic leading-relaxed" style={{ color: '#1C1C1E' }}>
               Ce positionnement nécessite une réelle volonté de compréhension du marché et une démarche proactive.
             </p>
 
@@ -89,7 +89,7 @@ export function Vision2030Section() {
             <div className="mt-4">
               <button
                 className="px-8 py-4 text-white rounded-full transition-all hover:opacity-90"
-                style={{ backgroundColor: '#003366' }}
+                style={{ backgroundColor: '#1C1C1E' }}
               >
                 Discuter de votre projet
               </button>
@@ -107,14 +107,14 @@ export function Vision2030Section() {
                   {/* ELEMENTOR: Icon Box - 48x48px, Deep Blue background */}
                   <div
                     className="w-12 h-12 rounded-lg flex items-center justify-center shrink-0"
-                    style={{ backgroundColor: '#003366' }}
+                    style={{ backgroundColor: '#1C1C1E' }}
                   >
                     <factor.icon className="w-6 h-6 text-white" />
                   </div>
 
                   {/* ELEMENTOR: Content Column */}
                   <div className="flex flex-col gap-2">
-                    <h3 className="text-lg font-medium" style={{ color: '#003366' }}>
+                    <h3 className="text-lg font-medium" style={{ color: '#1C1C1E' }}>
                       {factor.title}
                     </h3>
                     <p className="text-sm leading-relaxed" style={{ color: 'rgba(0,0,0,0.6)' }}>

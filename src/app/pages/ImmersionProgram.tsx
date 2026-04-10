@@ -44,25 +44,25 @@ export default function ImmersionProgram() {
           <div
             className="absolute inset-0"
             style={{
-              background: 'linear-gradient(to bottom, rgba(0,51,102,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
+              background: 'linear-gradient(to bottom, rgba(28,28,30,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
             }}
           />
           <div
             className="absolute inset-0"
             style={{
-              background: 'linear-gradient(to right, rgba(0,51,102,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
+              background: 'linear-gradient(to right, rgba(28,28,30,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
             }}
           />
         </div>
 
         <div className="relative z-10 flex-1 flex flex-col justify-center max-w-7xl w-full mx-auto px-8 py-32">
           <div className="flex flex-col gap-6 max-w-3xl">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
               Programme Immersion
             </p>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight">
               Accéder au marché saoudien à travers une approche{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>structurée</span>
+              <span className="font-serif italic" style={{ color: '#B87333' }}>structurée</span>
             </h1>
             <p className="text-xl text-white/70 leading-relaxed">
               Le programme Immersion permet d'aborder le marché saoudien de manière concrète,
@@ -76,7 +76,7 @@ export default function ImmersionProgram() {
               <Link
                 to="/#contact"
                 className="group px-8 py-4 text-white rounded-full transition-all flex items-center gap-2 justify-center hover:opacity-90"
-                style={{ backgroundColor: '#003366' }}
+                style={{ backgroundColor: '#1C1C1E' }}
               >
                 <span>Soumettre une demande</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -91,12 +91,12 @@ export default function ImmersionProgram() {
       <section className="relative bg-white py-32">
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
               Positionnement
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1C1C1E' }}>
               Une étape{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>structurante</span>
+              <span className="font-serif italic" style={{ color: '#B87333' }}>structurante</span>
             </h2>
           </div>
 
@@ -110,8 +110,8 @@ export default function ImmersionProgram() {
               Cette phase s'inscrit comme un levier stratégique, permettant de poser les bases d'un
               projet cohérent et adapté aux réalités du marché.
             </p>
-            <div className="bg-white border-l-4 rounded-lg p-6" style={{ borderColor: '#C29A3B' }}>
-              <p className="text-lg italic leading-relaxed" style={{ color: '#003366' }}>
+            <div className="bg-white border-l-4 rounded-lg p-6" style={{ borderColor: '#B87333' }}>
+              <p className="text-lg italic leading-relaxed" style={{ color: '#1C1C1E' }}>
                 Cette phase permet d'éviter des approches approximatives et de structurer une
                 entrée pertinente sur le marché. Elle constitue également une phase de sélection,
                 permettant d'identifier les profils en capacité de s'inscrire dans une logique
@@ -123,15 +123,15 @@ export default function ImmersionProgram() {
       </section>
 
       {/* Program Content - Light Beige */}
-      <section className="relative py-32" style={{ backgroundColor: '#FAF0E6' }}>
+      <section className="relative py-32" style={{ backgroundColor: '#FAFAF8' }}>
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
               Le Programme
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1C1C1E' }}>
               Une approche structurée{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>du marché</span>
+              <span className="font-serif italic" style={{ color: '#B87333' }}>du marché</span>
             </h2>
           </div>
 
@@ -143,12 +143,12 @@ export default function ImmersionProgram() {
               >
                 <div
                   className="w-12 h-12 rounded-lg flex items-center justify-center shrink-0"
-                  style={{ backgroundColor: '#003366' }}
+                  style={{ backgroundColor: '#1C1C1E' }}
                 >
                   <block.icon className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex flex-col gap-2">
-                  <h3 className="text-lg font-medium" style={{ color: '#003366' }}>{block.title}</h3>
+                  <h3 className="text-lg font-medium" style={{ color: '#1C1C1E' }}>{block.title}</h3>
                   <p className="text-sm leading-relaxed" style={{ color: 'rgba(0,0,0,0.6)' }}>
                     {block.description}
                   </p>
@@ -158,8 +158,8 @@ export default function ImmersionProgram() {
           </div>
 
           <div className="max-w-4xl mx-auto mt-8">
-            <div className="bg-white border-l-4 rounded-lg p-6" style={{ borderColor: '#C29A3B' }}>
-              <p className="text-lg italic leading-relaxed text-center" style={{ color: '#003366' }}>
+            <div className="bg-white border-l-4 rounded-lg p-6" style={{ borderColor: '#B87333' }}>
+              <p className="text-lg italic leading-relaxed text-center" style={{ color: '#1C1C1E' }}>
                 Le contenu détaillé du programme est communiqué après validation du profil.
               </p>
             </div>
@@ -171,12 +171,12 @@ export default function ImmersionProgram() {
       <section className="relative bg-white py-32">
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
               Formats & Tarifs
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1C1C1E' }}>
               Deux formats adaptés à votre{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>niveau d'engagement</span>
+              <span className="font-serif italic" style={{ color: '#B87333' }}>niveau d'engagement</span>
             </h2>
             <p className="text-xl leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
               Le programme Immersion est proposé selon deux formats, permettant d'adapter le niveau
@@ -188,8 +188,8 @@ export default function ImmersionProgram() {
             {/* Standard */}
             <div className="bg-white rounded-2xl p-8 border-2 flex flex-col gap-6" style={{ borderColor: 'rgba(0,0,0,0.1)' }}>
               <div className="flex flex-col gap-2">
-                <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>Format Standard</p>
-                <div className="text-4xl font-light" style={{ color: '#003366' }}>à partir de 5 900 €</div>
+                <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>Format Standard</p>
+                <div className="text-4xl font-light" style={{ color: '#1C1C1E' }}>à partir de 5 900 €</div>
                 <div className="flex gap-4 text-sm mt-2" style={{ color: 'rgba(0,0,0,0.6)' }}>
                   <span>5 jours / 4 nuits</span>
                   <span>·</span>
@@ -210,7 +210,7 @@ export default function ImmersionProgram() {
                   "Structuration initiale"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3 text-sm" style={{ color: 'rgba(0,0,0,0.7)' }}>
-                    <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: '#C29A3B' }} />
+                    <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: '#B87333' }} />
                     <span>{item}</span>
                   </div>
                 ))}
@@ -218,7 +218,7 @@ export default function ImmersionProgram() {
 
               <div className="border-t pt-4" style={{ borderColor: 'rgba(0,0,0,0.1)' }}>
                 <p className="text-sm" style={{ color: 'rgba(0,0,0,0.6)' }}>
-                  <span className="font-medium" style={{ color: '#003366' }}>Suivi inclus :</span>{" "}
+                  <span className="font-medium" style={{ color: '#1C1C1E' }}>Suivi inclus :</span>{" "}
                   une phase de suivi initiale d'un mois est incluse, permettant de prolonger
                   l'immersion à travers des échanges structurés et des actions concrètes.
                 </p>
@@ -226,13 +226,13 @@ export default function ImmersionProgram() {
             </div>
 
             {/* Premium */}
-            <div className="rounded-2xl p-8 flex flex-col gap-6 relative" style={{ backgroundColor: '#003366' }}>
-              <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-medium" style={{ backgroundColor: '#C29A3B', color: 'white' }}>
+            <div className="rounded-2xl p-8 flex flex-col gap-6 relative" style={{ backgroundColor: '#1C1C1E' }}>
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-medium" style={{ backgroundColor: '#B87333', color: 'white' }}>
                 Recommandé
               </div>
 
               <div className="flex flex-col gap-2">
-                <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>Format Premium</p>
+                <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>Format Premium</p>
                 <div className="text-4xl font-light text-white">à partir de 9 500 €</div>
                 <div className="flex gap-4 text-sm mt-2 text-white/60">
                   <span>6 jours / 5 nuits</span>
@@ -255,7 +255,7 @@ export default function ImmersionProgram() {
                   "Orientation stratégique vers la suite du programme"
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-center gap-3 text-sm text-white/80">
-                    <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: '#C29A3B' }} />
+                    <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: '#B87333' }} />
                     <span>{item}</span>
                   </div>
                 ))}
@@ -272,7 +272,7 @@ export default function ImmersionProgram() {
           </div>
 
           <div className="max-w-5xl mx-auto mt-8">
-            <div className="bg-white border-l-4 rounded-lg p-6 text-center" style={{ borderColor: '#C29A3B' }}>
+            <div className="bg-white border-l-4 rounded-lg p-6 text-center" style={{ borderColor: '#B87333' }}>
               <p className="text-base leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                 Chaque demande fait l'objet d'une étude préalable afin d'adapter le cadre
                 d'intervention aux spécificités du projet.
@@ -283,15 +283,15 @@ export default function ImmersionProgram() {
       </section>
 
       {/* Logistical Framework - Light Beige */}
-      <section className="relative py-32" style={{ backgroundColor: '#FAF0E6' }}>
+      <section className="relative py-32" style={{ backgroundColor: '#FAFAF8' }}>
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
               Cadre Logistique
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1C1C1E' }}>
               Un cadre entièrement{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>structuré</span>
+              <span className="font-serif italic" style={{ color: '#B87333' }}>structuré</span>
             </h2>
             <p className="text-xl leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
               Le programme Immersion s'inscrit dans un cadre organisé et encadré par Saudi Access
@@ -309,7 +309,7 @@ export default function ImmersionProgram() {
               "Restauration"
             ].map((item, index) => (
               <div key={index} className="bg-white rounded-lg p-5 border border-black/10 flex items-start gap-3">
-                <div className="w-1.5 h-1.5 rounded-full shrink-0 mt-2" style={{ backgroundColor: '#C29A3B' }} />
+                <div className="w-1.5 h-1.5 rounded-full shrink-0 mt-2" style={{ backgroundColor: '#B87333' }} />
                 <span className="text-base leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>{item}</span>
               </div>
             ))}
@@ -327,14 +327,14 @@ export default function ImmersionProgram() {
       {/* Selectivity - White */}
       <section className="relative bg-white py-32">
         <div className="max-w-4xl mx-auto px-8">
-          <div className="rounded-2xl p-12" style={{ backgroundColor: '#003366' }}>
+          <div className="rounded-2xl p-12" style={{ backgroundColor: '#1C1C1E' }}>
             <div className="flex flex-col gap-6 text-center">
-              <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+              <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
                 Accès encadré
               </p>
               <h2 className="text-3xl md:text-4xl font-light text-white">
                 Un accès{" "}
-                <span className="font-serif italic" style={{ color: '#C29A3B' }}>sélectif</span>
+                <span className="font-serif italic" style={{ color: '#B87333' }}>sélectif</span>
               </h2>
               <p className="text-xl leading-relaxed text-white/80">
                 Le programme Immersion s'adresse à des profils souhaitant aborder le marché
@@ -350,7 +350,7 @@ export default function ImmersionProgram() {
                 <Link
                   to="/#contact"
                   className="group px-8 py-4 text-white rounded-full transition-all flex items-center gap-2 justify-center hover:opacity-90"
-                  style={{ backgroundColor: '#C29A3B' }}
+                  style={{ backgroundColor: '#B87333' }}
                 >
                   <span>Soumettre une demande</span>
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -368,15 +368,15 @@ export default function ImmersionProgram() {
       </section>
 
       {/* FAQ - Light Beige */}
-      <section className="relative py-32" style={{ backgroundColor: '#FAF0E6' }}>
+      <section className="relative py-32" style={{ backgroundColor: '#FAFAF8' }}>
         <div className="max-w-4xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
               Questions Fréquentes
             </p>
-            <h2 className="text-4xl md:text-5xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl font-light leading-tight" style={{ color: '#1C1C1E' }}>
               Vos{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>questions</span>
+              <span className="font-serif italic" style={{ color: '#B87333' }}>questions</span>
             </h2>
           </div>
 
@@ -419,9 +419,9 @@ export default function ImmersionProgram() {
                 key={index}
                 className="group bg-white rounded-lg p-6 border border-black/10"
               >
-                <summary className="text-lg font-light cursor-pointer list-none flex items-center justify-between" style={{ color: '#003366' }}>
+                <summary className="text-lg font-light cursor-pointer list-none flex items-center justify-between" style={{ color: '#1C1C1E' }}>
                   {faq.q}
-                  <span className="group-open:rotate-180 transition-transform" style={{ color: '#C29A3B' }}>▼</span>
+                  <span className="group-open:rotate-180 transition-transform" style={{ color: '#B87333' }}>▼</span>
                 </summary>
                 <p className="mt-4 text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>{faq.a}</p>
               </details>

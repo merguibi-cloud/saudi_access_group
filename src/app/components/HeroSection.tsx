@@ -15,13 +15,13 @@ export function HeroSection() {
         <div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to bottom, rgba(0,51,102,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
+            background: 'linear-gradient(to bottom, rgba(28,28,30,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
           }}
         />
         <div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to right, rgba(0,51,102,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
+            background: 'linear-gradient(to right, rgba(28,28,30,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
           }}
         />
       </div>
@@ -30,13 +30,13 @@ export function HeroSection() {
 
         <div className="flex flex-col gap-6 max-w-3xl text-center">
 
-          <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+          <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
             Opérateur d'accès au marché saoudien
           </p>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight">
             Structurer votre accès au{" "}
-            <span className="font-serif italic" style={{ color: '#C29A3B' }}>marché saoudien</span>
+            <span className="font-serif italic" style={{ color: '#B87333' }}>marché saoudien</span>
           </h1>
 
           <p className="text-xl text-white/70 max-w-3xl leading-relaxed mx-auto">
@@ -54,7 +54,7 @@ export function HeroSection() {
             <Link
               to="/#contact"
               className="group px-8 py-4 text-white rounded-full transition-all flex items-center gap-2 justify-center hover:opacity-90"
-              style={{ backgroundColor: '#003366' }}
+              style={{ backgroundColor: '#1C1C1E' }}
             >
               <span>Soumettre une demande</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -63,7 +63,7 @@ export function HeroSection() {
             <Link
               to="/systeme-isi"
               className="group px-8 py-4 bg-transparent text-white rounded-full transition-all flex items-center gap-2 justify-center border-2 hover:bg-white/5"
-              style={{ borderColor: '#C29A3B' }}
+              style={{ borderColor: '#B87333' }}
             >
               <span>Découvrir le système ISI</span>
             </Link>
@@ -72,16 +72,16 @@ export function HeroSection() {
 
         <div className="flex justify-center">
           <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center pt-2">
-            <div className="w-1 h-2 rounded-full" style={{ backgroundColor: '#C29A3B' }} />
+            <div className="w-1 h-2 rounded-full" style={{ backgroundColor: '#B87333' }} />
           </div>
         </div>
       </div>
 
-      <div className="relative z-10 backdrop-blur-sm border-t border-white/10 mx-auto" style={{ backgroundColor: 'rgba(0,51,102,0.3)' }}>
+      <div className="relative z-10 backdrop-blur-sm border-t border-white/10 mx-auto" style={{ backgroundColor: 'rgba(28,28,30,0.3)' }}>
         <div className="max-w-7xl mx-auto px-8 py-6">
           <div className="flex flex-wrap gap-6 text-xs text-white/50 uppercase tracking-wider">
             <span className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full" style={{ backgroundColor: '#C29A3B' }} />
+              <span className="w-2 h-2 rounded-full" style={{ backgroundColor: '#B87333' }} />
               Riyadh
             </span>
             <span>Jeddah</span>

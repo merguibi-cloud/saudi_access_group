@@ -1,11 +1,11 @@
 import { Compass, FileText, Rocket } from "lucide-react";
 
 /* ELEMENTOR CONVERSION NOTES:
- * - Section: Background Light Beige (#FAF0E6), Padding: 128px 0
+ * - Section: Background Light Beige (#FAFAF8), Padding: 128px 0
  * - Layout: Flexbox Column, Gap: 80px
  * - Steps Grid: 3 columns (Desktop), 1 column (Mobile), Gap: 32px
  * - Cards: Clean corporate style with subtle borders
- * - Color Scheme: Deep Blue (#003366) for titles, Gold SAG (#C29A3B) for accents
+ * - Color Scheme: Deep Blue (#1C1C1E) for titles, Gold SAG (#B87333) for accents
  */
 
 const steps = [
@@ -52,22 +52,22 @@ const steps = [
 
 export function ServicesSection() {
   return (
-    <section id="approche" className="relative py-32 overflow-hidden" style={{ backgroundColor: '#FAF0E6' }}>
+    <section id="approche" className="relative py-32 overflow-hidden" style={{ backgroundColor: '#FAFAF8' }}>
 
       {/* ELEMENTOR: Container - Max Width: 1280px, Padding: 0 32px, Flexbox Column, Gap: 80px */}
       <div className="relative z-10 max-w-7xl mx-auto px-8 flex flex-col gap-20">
 
         {/* ELEMENTOR: Header Section - Text Align Center, Flexbox Column, Gap: 16px */}
         <div className="flex flex-col gap-4 text-center">
-          {/* ELEMENTOR: Text widget - Gold SAG (#C29A3B), Uppercase, Font Size: 14px, Letter Spacing: 0.2em */}
-          <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+          {/* ELEMENTOR: Text widget - Gold SAG (#B87333), Uppercase, Font Size: 14px, Letter Spacing: 0.2em */}
+          <p className="text-sm tracking-widest uppercase" style={{ color: '#B87333' }}>
             Système ISI
           </p>
 
           {/* ELEMENTOR: Heading widget (H2) - Font Size: 60px (Desktop), 48px (Mobile), Deep Blue */}
-          <h2 className="text-5xl md:text-6xl font-light" style={{ color: '#003366' }}>
+          <h2 className="text-5xl md:text-6xl font-light" style={{ color: '#1C1C1E' }}>
             Le{" "}
-            <span className="font-serif italic" style={{ color: '#C29A3B' }}>système ISI</span>
+            <span className="font-serif italic" style={{ color: '#B87333' }}>système ISI</span>
           </h2>
 
           {/* ELEMENTOR: Text widget - Black 60%, Font Size: 20px, Max Width: 672px */}
@@ -82,13 +82,13 @@ export function ServicesSection() {
             <div key={index} className="group">
 
               {/* ELEMENTOR: Step Card - Background: White, Border: Gray 20%, Rounded: 16px, Padding: 32px */}
-              {/* Hover: Border Deep Blue (#003366) */}
+              {/* Hover: Border Deep Blue (#1C1C1E) */}
               <div
                 className="bg-white border-2 rounded-2xl p-8 h-full transition-all duration-500 flex flex-col gap-6 hover:shadow-lg"
                 style={{
                   borderColor: 'rgba(0,0,0,0.1)',
                 }}
-                onMouseEnter={(e) => e.currentTarget.style.borderColor = '#003366'}
+                onMouseEnter={(e) => e.currentTarget.style.borderColor = '#1C1C1E'}
                 onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(0,0,0,0.1)'}
               >
 
@@ -102,7 +102,7 @@ export function ServicesSection() {
                   {/* ELEMENTOR: Icon Box - 48x48px, Deep Blue background */}
                   <div
                     className="w-12 h-12 rounded-xl flex items-center justify-center"
-                    style={{ backgroundColor: '#003366' }}
+                    style={{ backgroundColor: '#1C1C1E' }}
                   >
                     <step.icon className="w-6 h-6 text-white" />
                   </div>
@@ -113,11 +113,11 @@ export function ServicesSection() {
                   {/* ELEMENTOR: Title Group - Flexbox Column, Gap: 8px */}
                   <div className="flex flex-col gap-2">
                     {/* ELEMENTOR: Heading widget (H3) - Font Size: 28px, Deep Blue */}
-                    <h3 className="text-3xl font-light" style={{ color: '#003366' }}>
+                    <h3 className="text-3xl font-light" style={{ color: '#1C1C1E' }}>
                       {step.title}
                     </h3>
                     {/* ELEMENTOR: Text widget - Gold SAG, Font Size: 14px */}
-                    <p className="text-sm tracking-wide" style={{ color: '#C29A3B' }}>
+                    <p className="text-sm tracking-wide" style={{ color: '#B87333' }}>
                       {step.duration}
                     </p>
                   </div>
@@ -133,7 +133,7 @@ export function ServicesSection() {
                   {step.features.map((feature, idx) => (
                     <div key={idx} className="flex items-center gap-3 text-sm" style={{ color: 'rgba(0,0,0,0.6)' }}>
                       {/* ELEMENTOR: Icon - Divider widget or HTML (4px dot, Gold SAG) */}
-                      <div className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#C29A3B' }} />
+                      <div className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#B87333' }} />
                       {/* ELEMENTOR: Text widget */}
                       <span>{feature}</span>
                     </div>
@@ -143,7 +143,7 @@ export function ServicesSection() {
                 {/* ELEMENTOR: CTA Button - Text button with arrow, Deep Blue color */}
                 <button
                   className="mt-4 text-left text-sm font-medium hover:opacity-70 transition-opacity flex items-center gap-2"
-                  style={{ color: '#003366' }}
+                  style={{ color: '#1C1C1E' }}
                 >
                   {step.cta}
                   <span>→</span>

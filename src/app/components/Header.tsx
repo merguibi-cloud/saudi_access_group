@@ -20,10 +20,10 @@ export function Header() {
         
         {/* ELEMENTOR: Logo Group - Flexbox Row, Gap: 8px */}
         <Link to="/" className="flex items-center gap-2">
-          {/* ELEMENTOR: Icon Box or Image widget - 40x40px, Deep Blue (#003366) background */}
+          {/* ELEMENTOR: Icon Box or Image widget - 40x40px, Deep Blue (#1C1C1E) background */}
           <div
             className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
-            style={{ backgroundColor: '#003366' }}
+            style={{ backgroundColor: '#1C1C1E' }}
           >
             <span className="text-white font-bold text-lg">SA</span>
           </div>
@@ -56,11 +56,11 @@ export function Header() {
           </Link>
         </nav>
 
-        {/* ELEMENTOR: Button widget with icon - Gold SAG (#C29A3B) style */}
+        {/* ELEMENTOR: Button widget with icon - Gold SAG (#B87333) style */}
         <Link
           to="/#contact"
           className="flex items-center gap-2 px-6 py-3 rounded-full border-2 transition-all shrink-0 hover:bg-white/5"
-          style={{ borderColor: '#C29A3B', color: '#C29A3B' }}
+          style={{ borderColor: '#B87333', color: '#B87333' }}
         >
           <Phone className="w-4 h-4" />
           <span className="text-sm">Nous contacter</span>
