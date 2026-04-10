@@ -1,13 +1,13 @@
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+﻿import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Building2, Scale, Briefcase, Users } from "lucide-react";
 
 /* ELEMENTOR CONVERSION NOTES:
- * - Section: Background Light Beige (#FAF0E6), Padding: 128px 0
+ * - Section: Background Light Beige (#F8F9FA), Padding: 128px 0
  * - Layout: Categorized partner sections with icon headers
  * - Cards: Clean corporate style with subtle borders
  * - Images: All using Unsplash URLs - can be replaced with WordPress media
  * - Hover effect: Border color change to Deep Blue
- * - Color Scheme: Deep Blue (#003366) and Gold SAG (#C29A3B)
+ * - Color Scheme: Deep Blue (#1A2A3A) and Gold SAG (#C9A96E)
  * - Institutional, discreet tone - avoid promotional language
  */
 
@@ -80,22 +80,22 @@ const partnerCategories = [
 
 export function PartnersSection() {
   return (
-    <section id="partenaires" className="relative py-32 overflow-hidden" style={{ backgroundColor: '#FAF0E6' }}>
+    <section id="partenaires" className="relative py-32 overflow-hidden" style={{ backgroundColor: '#F8F9FA' }}>
 
       {/* ELEMENTOR: Container - Max Width: 1280px, Padding: 0 32px, Flexbox Column, Gap: 64px */}
       <div className="max-w-7xl mx-auto px-8 flex flex-col gap-16">
 
         {/* ELEMENTOR: Header Section - Text Align Center, Flexbox Column, Gap: 24px */}
         <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto">
-          {/* ELEMENTOR: Text widget - Gold SAG (#C29A3B), Uppercase, Letter Spacing 0.2em */}
-          <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+          {/* ELEMENTOR: Text widget - Gold SAG (#C9A96E), Uppercase, Letter Spacing 0.2em */}
+          <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
             Réseau de Partenaires
           </p>
 
           {/* ELEMENTOR: Heading (H2) - Font Size: 56px (Desktop), 40px (Mobile), Deep Blue */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1A2A3A' }}>
             Un réseau{" "}
-            <span className="font-serif italic" style={{ color: '#C29A3B' }}>structuré</span>
+            <span className="font-serif italic" style={{ color: '#C9A96E' }}>structuré</span>
           </h2>
 
           {/* ELEMENTOR: Text widget - Black 70%, Font Size: 20px, Max Width: 896px */}
@@ -120,12 +120,12 @@ export function PartnersSection() {
                 {/* ELEMENTOR: Icon Box - 32x32px, Deep Blue background */}
                 <div
                   className="w-8 h-8 rounded-lg flex items-center justify-center"
-                  style={{ backgroundColor: '#003366' }}
+                  style={{ backgroundColor: '#1A2A3A' }}
                 >
                   <category.icon className="w-5 h-5 text-white" />
                 </div>
                 {/* ELEMENTOR: Heading (H3) - Deep Blue, Font Size: 20px */}
-                <h3 className="text-xl font-medium" style={{ color: '#003366' }}>
+                <h3 className="text-xl font-medium" style={{ color: '#1A2A3A' }}>
                   {category.category}
                 </h3>
               </div>
@@ -140,7 +140,7 @@ export function PartnersSection() {
                     <div
                       className="bg-white border-2 rounded-2xl overflow-hidden h-full transition-all duration-500 flex flex-col hover:shadow-lg"
                       style={{ borderColor: 'rgba(0,0,0,0.1)' }}
-                      onMouseEnter={(e) => e.currentTarget.style.borderColor = '#003366'}
+                      onMouseEnter={(e) => e.currentTarget.style.borderColor = '#1A2A3A'}
                       onMouseLeave={(e) => e.currentTarget.style.borderColor = 'rgba(0,0,0,0.1)'}
                     >
 
@@ -156,7 +156,7 @@ export function PartnersSection() {
                         <div
                           className="absolute inset-0"
                           style={{
-                            background: 'linear-gradient(to top, rgba(0,51,102,0.7) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
+                            background: 'linear-gradient(to top, rgba(26,42,58,0.7) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
                           }}
                         />
                       </div>
@@ -164,11 +164,11 @@ export function PartnersSection() {
                       {/* ELEMENTOR: Content Section - Padding: 20px, Flexbox Column, Gap: 8px */}
                       <div className="flex flex-col gap-2 flex-1 p-5">
                         {/* ELEMENTOR: Heading (H4) - Deep Blue, Font Size: 16px, Text Align Center */}
-                        <h4 className="font-medium text-base text-center" style={{ color: '#003366' }}>
+                        <h4 className="font-medium text-base text-center" style={{ color: '#1A2A3A' }}>
                           {partner.name}
                         </h4>
                         {/* ELEMENTOR: Text widget - Gold SAG, Font Size: 13px, Text Align Center */}
-                        <p className="text-xs text-center" style={{ color: '#C29A3B' }}>
+                        <p className="text-xs text-center" style={{ color: '#C9A96E' }}>
                           {partner.type}
                         </p>
                       </div>
@@ -181,7 +181,7 @@ export function PartnersSection() {
         </div>
 
         {/* ELEMENTOR: Disclaimer Note - Background White, Border Left Gold, Padding */}
-        <div className="border-l-4 rounded-lg p-6 max-w-3xl mx-auto" style={{ backgroundColor: 'white', borderColor: '#C29A3B' }}>
+        <div className="border-l-4 rounded-lg p-6 max-w-3xl mx-auto" style={{ backgroundColor: 'white', borderColor: '#C9A96E' }}>
           <p className="text-sm italic leading-relaxed text-center" style={{ color: 'rgba(0,0,0,0.6)' }}>
             Les partenariats présentés correspondent à des collaborations actives et autorisées.
             La liste n'est pas exhaustive et évolue selon les besoins des projets accompagnés.

@@ -1,4 +1,4 @@
-import { Building2, MapPin, ArrowRight } from "lucide-react";
+﻿import { Building2, MapPin, ArrowRight } from "lucide-react";
 import { Link } from "react-router";
 
 export default function About() {
@@ -16,25 +16,25 @@ export default function About() {
           <div
             className="absolute inset-0"
             style={{
-              background: 'linear-gradient(to bottom, rgba(0,51,102,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
+              background: 'linear-gradient(to bottom, rgba(26,42,58,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
             }}
           />
           <div
             className="absolute inset-0"
             style={{
-              background: 'linear-gradient(to right, rgba(0,51,102,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
+              background: 'linear-gradient(to right, rgba(26,42,58,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
             }}
           />
         </div>
 
         <div className="relative z-10 flex-1 flex flex-col justify-center max-w-7xl w-full mx-auto px-8 py-32">
           <div className="flex flex-col gap-6 max-w-3xl">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               À Propos
             </p>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight">
               Une structure dédiée à{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>l'accès au marché saoudien</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>l'accès au marché saoudien</span>
             </h1>
             <p className="text-xl text-white/70 leading-relaxed">
               Saudi Access Group accompagne la structuration et l'exécution de projets dans un
@@ -48,12 +48,12 @@ export default function About() {
       <section className="relative bg-white py-32">
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Notre Histoire
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1A2A3A' }}>
               Récit{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>fondateur</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>fondateur</span>
             </h2>
           </div>
 
@@ -75,8 +75,8 @@ export default function About() {
               La structure est née de la complémentarité entre Abdallah G. et Abdoulaye K., tous deux
               régulièrement sollicités sur des problématiques liées à l'accès au marché saoudien.
             </p>
-            <div className="bg-white rounded-lg p-8 border-l-4" style={{ borderColor: '#C29A3B' }}>
-              <p className="text-xl font-light leading-relaxed" style={{ color: '#003366' }}>
+            <div className="bg-white rounded-lg p-8 border-l-4" style={{ borderColor: '#C9A96E' }}>
+              <p className="text-xl font-light leading-relaxed" style={{ color: '#1A2A3A' }}>
                 Saudi Access Group s'inscrit dans une logique de structuration de l'accès et de
                 création de passerelles entre marchés. L'objectif est de faciliter un accès structuré,
                 sécurisé et cohérent au marché saoudien, tout en développant des ponts entre l'Arabie
@@ -92,15 +92,15 @@ export default function About() {
       </section>
 
       {/* Founders - Light Beige */}
-      <section className="relative py-32" style={{ backgroundColor: '#FAF0E6' }}>
+      <section className="relative py-32" style={{ backgroundColor: '#F8F9FA' }}>
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Les Fondateurs
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1A2A3A' }}>
               Une expertise{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>complémentaire</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>complémentaire</span>
             </h2>
             <p className="text-xl leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
               Saudi Access Group repose sur l'association de deux expertises complémentaires,
@@ -110,11 +110,11 @@ export default function About() {
 
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div className="bg-white rounded-lg p-8 border border-black/10">
-              <div className="w-24 h-24 rounded-full mb-6 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #C29A3B 0%, #003366 100%)' }}>
+              <div className="w-24 h-24 rounded-full mb-6 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #C9A96E 0%, #1A2A3A 100%)' }}>
                 <span className="text-white text-3xl font-light">AG</span>
               </div>
-              <h3 className="text-2xl font-light mb-2" style={{ color: '#003366' }}>Abdallah G.</h3>
-              <div className="text-sm tracking-wider uppercase mb-4" style={{ color: '#C29A3B' }}>Expert terrain & Coordinateur local</div>
+              <h3 className="text-2xl font-light mb-2" style={{ color: '#1A2A3A' }}>Abdallah G.</h3>
+              <div className="text-sm tracking-wider uppercase mb-4" style={{ color: '#C9A96E' }}>Expert terrain & Coordinateur local</div>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                 Présent en Arabie Saoudite depuis plus d'une décennie, il s'appuie sur une connaissance
                 approfondie des dynamiques locales et un réseau structuré couvrant des environnements
@@ -124,11 +124,11 @@ export default function About() {
             </div>
 
             <div className="bg-white rounded-lg p-8 border border-black/10">
-              <div className="w-24 h-24 rounded-full mb-6 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #C29A3B 0%, #003366 100%)' }}>
+              <div className="w-24 h-24 rounded-full mb-6 flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #C9A96E 0%, #1A2A3A 100%)' }}>
                 <span className="text-white text-3xl font-light">AK</span>
               </div>
-              <h3 className="text-2xl font-light mb-2" style={{ color: '#003366' }}>Abdoulaye K.</h3>
-              <div className="text-sm tracking-wider uppercase mb-4" style={{ color: '#C29A3B' }}>Structuration & Développement</div>
+              <h3 className="text-2xl font-light mb-2" style={{ color: '#1A2A3A' }}>Abdoulaye K.</h3>
+              <div className="text-sm tracking-wider uppercase mb-4" style={{ color: '#C9A96E' }}>Structuration & Développement</div>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                 Il intervient sur les dimensions de structuration, de développement et de relationnel.
                 Il s'appuie sur une capacité d'analyse, de négociation et d'intégration dans des
@@ -140,8 +140,8 @@ export default function About() {
           </div>
 
           <div className="max-w-4xl mx-auto mt-12">
-            <div className="bg-white border-l-4 rounded-lg p-6" style={{ borderColor: '#C29A3B' }}>
-              <p className="text-lg leading-relaxed text-center" style={{ color: '#003366' }}>
+            <div className="bg-white border-l-4 rounded-lg p-6" style={{ borderColor: '#C9A96E' }}>
+              <p className="text-lg leading-relaxed text-center" style={{ color: '#1A2A3A' }}>
                 Cette complémentarité permet à Saudi Access Group d'articuler vision stratégique,
                 compréhension du terrain et capacité d'exécution. Elle constitue le socle d'une
                 approche orientée vers le développement structuré de projets et la création de
@@ -156,12 +156,12 @@ export default function About() {
       <section className="relative bg-white py-32">
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Cadre Légal
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1A2A3A' }}>
               Un cadre{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>structuré</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>structuré</span>
             </h2>
           </div>
 
@@ -186,21 +186,21 @@ export default function About() {
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-4 bg-white rounded-lg p-6 border border-black/10">
                   <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0" style={{ backgroundColor: 'rgba(194,154,59,0.1)' }}>
-                    <item.icon className="w-5 h-5" style={{ color: '#C29A3B' }} />
+                    <item.icon className="w-5 h-5" style={{ color: '#C9A96E' }} />
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-sm uppercase tracking-wider" style={{ color: '#C29A3B' }}>{item.label}</span>
-                    <span className="text-base font-medium" style={{ color: '#003366' }}>{item.value}</span>
+                    <span className="text-sm uppercase tracking-wider" style={{ color: '#C9A96E' }}>{item.label}</span>
+                    <span className="text-base font-medium" style={{ color: '#1A2A3A' }}>{item.value}</span>
                   </div>
                 </div>
               ))}
               <div className="flex items-start gap-4 bg-white rounded-lg p-6 border border-black/10 md:col-span-2">
                 <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0" style={{ backgroundColor: 'rgba(194,154,59,0.1)' }}>
-                  <Building2 className="w-5 h-5" style={{ color: '#C29A3B' }} />
+                  <Building2 className="w-5 h-5" style={{ color: '#C9A96E' }} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <span className="text-sm uppercase tracking-wider" style={{ color: '#C29A3B' }}>Statut</span>
-                  <span className="text-base font-medium" style={{ color: '#003366' }}>Actif</span>
+                  <span className="text-sm uppercase tracking-wider" style={{ color: '#C9A96E' }}>Statut</span>
+                  <span className="text-base font-medium" style={{ color: '#1A2A3A' }}>Actif</span>
                 </div>
               </div>
             </div>
@@ -209,15 +209,15 @@ export default function About() {
       </section>
 
       {/* CTA - Light Beige */}
-      <section className="relative py-32" style={{ backgroundColor: '#FAF0E6' }}>
+      <section className="relative py-32" style={{ backgroundColor: '#F8F9FA' }}>
         <div className="max-w-4xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center mb-12">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Une approche structurée
             </p>
-            <h2 className="text-3xl md:text-4xl font-light" style={{ color: '#003366' }}>
+            <h2 className="text-3xl md:text-4xl font-light" style={{ color: '#1A2A3A' }}>
               Découvrir le{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>système ISI</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>système ISI</span>
             </h2>
             <p className="text-xl leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
               Saudi Access Group développe une approche fondée sur la structuration de l'accès au
@@ -231,7 +231,7 @@ export default function About() {
             <Link
               to="/systeme-isi"
               className="group px-8 py-4 text-white rounded-full transition-all flex items-center gap-2 justify-center hover:opacity-90"
-              style={{ backgroundColor: '#003366' }}
+              style={{ backgroundColor: '#1A2A3A' }}
             >
               <span>Découvrir le système ISI</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -239,7 +239,7 @@ export default function About() {
             <Link
               to="/#contact"
               className="px-8 py-4 rounded-full border-2 transition-all flex items-center gap-2 justify-center hover:bg-black/5"
-              style={{ borderColor: '#C29A3B', color: '#003366' }}
+              style={{ borderColor: '#C9A96E', color: '#1A2A3A' }}
             >
               <span>Soumettre une demande</span>
             </Link>

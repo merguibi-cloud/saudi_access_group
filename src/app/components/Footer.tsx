@@ -1,4 +1,4 @@
-import { MapPin, Mail, Youtube, Linkedin, Instagram, MessageCircle } from "lucide-react";
+﻿import { MapPin, Mail, Youtube, Linkedin, Instagram, MessageCircle } from "lucide-react";
 
 /* ELEMENTOR CONVERSION NOTES:
  * - Footer: Use Elementor Footer template
@@ -25,7 +25,7 @@ export function Footer() {
             <div className="flex items-center gap-2">
               <div
                 className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
-                style={{ backgroundColor: '#003366' }}
+                style={{ backgroundColor: '#1A2A3A' }}
               >
                 <span className="text-white font-bold text-lg">SA</span>
               </div>
@@ -46,16 +46,16 @@ export function Footer() {
             <h4 className="text-white font-light text-lg">Parcours</h4>
             {/* ELEMENTOR: Icon List widget or Nav Menu */}
             <div className="flex flex-col gap-3">
-              <a href="#immersion" className="flex items-center gap-2 text-white/60 transition-colors text-sm" style={{ color: 'rgba(255,255,255,0.6)' }} onMouseEnter={(e) => e.currentTarget.style.color = '#C29A3B'} onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}>
-                <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#C29A3B' }} />
+              <a href="#immersion" className="flex items-center gap-2 text-white/60 transition-colors text-sm" style={{ color: 'rgba(255,255,255,0.6)' }} onMouseEnter={(e) => e.currentTarget.style.color = '#C9A96E'} onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}>
+                <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#C9A96E' }} />
                 Programme Immersion
               </a>
-              <a href="#accompagnement" className="flex items-center gap-2 text-white/60 transition-colors text-sm" style={{ color: 'rgba(255,255,255,0.6)' }} onMouseEnter={(e) => e.currentTarget.style.color = '#C29A3B'} onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}>
-                <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#C29A3B' }} />
+              <a href="#accompagnement" className="flex items-center gap-2 text-white/60 transition-colors text-sm" style={{ color: 'rgba(255,255,255,0.6)' }} onMouseEnter={(e) => e.currentTarget.style.color = '#C9A96E'} onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}>
+                <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#C9A96E' }} />
                 Accompagnement
               </a>
-              <a href="#implantation" className="flex items-center gap-2 text-white/60 transition-colors text-sm" style={{ color: 'rgba(255,255,255,0.6)' }} onMouseEnter={(e) => e.currentTarget.style.color = '#C29A3B'} onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}>
-                <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#C29A3B' }} />
+              <a href="#implantation" className="flex items-center gap-2 text-white/60 transition-colors text-sm" style={{ color: 'rgba(255,255,255,0.6)' }} onMouseEnter={(e) => e.currentTarget.style.color = '#C9A96E'} onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}>
+                <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: '#C9A96E' }} />
                 Implantation
               </a>
             </div>
@@ -90,15 +90,15 @@ export function Footer() {
             {/* ELEMENTOR: Contact Info - Icon List or Text widgets */}
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3 text-white/60 text-sm">
-                <MapPin className="w-4 h-4 shrink-0 mt-1" style={{ color: '#C29A3B' }} />
+                <MapPin className="w-4 h-4 shrink-0 mt-1" style={{ color: '#C9A96E' }} />
                 <span>King Fahd Road - Hamad Tower</span>
               </div>
               <div className="flex items-center gap-3 text-white/60 text-sm">
-                <Mail className="w-4 h-4 shrink-0" style={{ color: '#C29A3B' }} />
+                <Mail className="w-4 h-4 shrink-0" style={{ color: '#C9A96E' }} />
                 <a
                   href="mailto:contact@saudiaccessgroup.com"
                   className="transition-colors"
-                  onMouseEnter={(e) => e.currentTarget.style.color = '#C29A3B'}
+                  onMouseEnter={(e) => e.currentTarget.style.color = '#C9A96E'}
                   onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255,255,255,0.6)'}
                 >
                   contact@saudiaccessgroup.com
@@ -146,7 +146,7 @@ export function Footer() {
           {/* ELEMENTOR: Made in Text - Flexbox Row, Gap: 8px */}
           <div className="flex items-center gap-2 text-white/40 text-sm">
             <span>Conçu en</span>
-            <span style={{ color: '#C29A3B' }}>♦</span>
+            <span style={{ color: '#C9A96E' }}>♦</span>
             <span>Arabie Saoudite</span>
           </div>
         </div>

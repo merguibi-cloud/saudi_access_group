@@ -1,4 +1,4 @@
-import { ArrowRight, Compass, Lightbulb, Building2 } from "lucide-react";
+﻿import { ArrowRight, Compass, Lightbulb, Building2 } from "lucide-react";
 import { Link } from "react-router";
 
 export default function SystemeISI() {
@@ -16,25 +16,25 @@ export default function SystemeISI() {
           <div
             className="absolute inset-0"
             style={{
-              background: 'linear-gradient(to bottom, rgba(0,51,102,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
+              background: 'linear-gradient(to bottom, rgba(26,42,58,0.85) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.95) 100%)'
             }}
           />
           <div
             className="absolute inset-0"
             style={{
-              background: 'linear-gradient(to right, rgba(0,51,102,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
+              background: 'linear-gradient(to right, rgba(26,42,58,0.6) 0%, rgba(0,0,0,0.3) 50%, transparent 100%)'
             }}
           />
         </div>
 
         <div className="relative z-10 flex-1 flex flex-col justify-center max-w-7xl w-full mx-auto px-8 py-32">
           <div className="flex flex-col gap-6 max-w-4xl">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Notre Approche
             </p>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white leading-tight">
               Le{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>système ISI</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>système ISI</span>
             </h1>
             <p className="text-xl text-white/70 leading-relaxed">
               Saudi Access Group opère à travers le système ISI, un parcours structuré permettant
@@ -48,12 +48,12 @@ export default function SystemeISI() {
       <section className="relative bg-white py-32">
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Un Parcours Structuré
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1A2A3A' }}>
               Trois phases{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>complémentaires</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>complémentaires</span>
             </h2>
             <p className="text-xl leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
               Le système ISI n'est pas une offre catalogue. C'est un parcours structuré en trois phases
@@ -68,13 +68,13 @@ export default function SystemeISI() {
               <Link
                 to="/immersion"
                 className="group bg-white rounded-lg p-8 border-2 transition-all hover:shadow-lg"
-                style={{ borderColor: '#C29A3B' }}
+                style={{ borderColor: '#C9A96E' }}
               >
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6 transition-all group-hover:scale-110" style={{ backgroundColor: 'rgba(194, 154, 59, 0.1)' }}>
-                  <Compass className="w-8 h-8" style={{ color: '#C29A3B' }} />
+                  <Compass className="w-8 h-8" style={{ color: '#C9A96E' }} />
                 </div>
-                <div className="text-sm tracking-wider uppercase mb-2" style={{ color: '#C29A3B' }}>Phase 1</div>
-                <h3 className="text-2xl font-light mb-4" style={{ color: '#003366' }}>Immersion</h3>
+                <div className="text-sm tracking-wider uppercase mb-2" style={{ color: '#C9A96E' }}>Phase 1</div>
+                <h3 className="text-2xl font-light mb-4" style={{ color: '#1A2A3A' }}>Immersion</h3>
                 <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                   Programme d'entrée permettant une première lecture terrain du marché saoudien
                 </p>
@@ -84,13 +84,13 @@ export default function SystemeISI() {
               <Link
                 to="/support-strategique"
                 className="group bg-white rounded-lg p-8 border-2 transition-all hover:shadow-lg"
-                style={{ borderColor: '#003366' }}
+                style={{ borderColor: '#1A2A3A' }}
               >
-                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6 transition-all group-hover:scale-110" style={{ backgroundColor: 'rgba(0,51,102,0.1)' }}>
-                  <Lightbulb className="w-8 h-8" style={{ color: '#003366' }} />
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6 transition-all group-hover:scale-110" style={{ backgroundColor: 'rgba(26,42,58,0.1)' }}>
+                  <Lightbulb className="w-8 h-8" style={{ color: '#1A2A3A' }} />
                 </div>
-                <div className="text-sm tracking-wider uppercase mb-2" style={{ color: '#003366' }}>Phase 2</div>
-                <h3 className="text-2xl font-light mb-4" style={{ color: '#003366' }}>Support stratégique</h3>
+                <div className="text-sm tracking-wider uppercase mb-2" style={{ color: '#1A2A3A' }}>Phase 2</div>
+                <h3 className="text-2xl font-light mb-4" style={{ color: '#1A2A3A' }}>Support stratégique</h3>
                 <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                   Accompagnement structurant pour définir une trajectoire d'accès au marché
                 </p>
@@ -103,10 +103,10 @@ export default function SystemeISI() {
                 style={{ borderColor: 'rgba(0,0,0,0.1)' }}
               >
                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6 transition-all group-hover:scale-110" style={{ backgroundColor: 'rgba(0,0,0,0.05)' }}>
-                  <Building2 className="w-8 h-8" style={{ color: '#003366' }} />
+                  <Building2 className="w-8 h-8" style={{ color: '#1A2A3A' }} />
                 </div>
                 <div className="text-sm tracking-wider uppercase mb-2" style={{ color: 'rgba(0,0,0,0.6)' }}>Phase 3</div>
-                <h3 className="text-2xl font-light mb-4" style={{ color: '#003366' }}>Implantation</h3>
+                <h3 className="text-2xl font-light mb-4" style={{ color: '#1A2A3A' }}>Implantation</h3>
                 <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                   Coordination premium pour l'établissement d'une présence juridique et opérationnelle
                 </p>
@@ -114,8 +114,8 @@ export default function SystemeISI() {
             </div>
           </div>
 
-          <div className="max-w-4xl mx-auto bg-white rounded-lg p-8 border-l-4" style={{ borderColor: '#C29A3B' }}>
-            <p className="text-xl font-light leading-relaxed" style={{ color: '#003366' }}>
+          <div className="max-w-4xl mx-auto bg-white rounded-lg p-8 border-l-4" style={{ borderColor: '#C9A96E' }}>
+            <p className="text-xl font-light leading-relaxed" style={{ color: '#1A2A3A' }}>
               Notre rôle n'est pas de vendre une vision ; il est de transformer une intention en trajectoire lisible.
             </p>
           </div>
@@ -123,21 +123,21 @@ export default function SystemeISI() {
       </section>
 
       {/* How It Works - Light Beige */}
-      <section className="relative py-32" style={{ backgroundColor: '#FAF0E6' }}>
+      <section className="relative py-32" style={{ backgroundColor: '#F8F9FA' }}>
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Fonctionnement
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1A2A3A' }}>
               Un parcours{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>progressif</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>progressif</span>
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="bg-white rounded-lg p-8">
-              <h3 className="text-2xl font-light mb-4" style={{ color: '#003366' }}>
+              <h3 className="text-2xl font-light mb-4" style={{ color: '#1A2A3A' }}>
                 Accès sélectif
               </h3>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
@@ -147,7 +147,7 @@ export default function SystemeISI() {
             </div>
 
             <div className="bg-white rounded-lg p-8">
-              <h3 className="text-2xl font-light mb-4" style={{ color: '#003366' }}>
+              <h3 className="text-2xl font-light mb-4" style={{ color: '#1A2A3A' }}>
                 Progression modulaire
               </h3>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
@@ -157,7 +157,7 @@ export default function SystemeISI() {
             </div>
 
             <div className="bg-white rounded-lg p-8">
-              <h3 className="text-2xl font-light mb-4" style={{ color: '#003366' }}>
+              <h3 className="text-2xl font-light mb-4" style={{ color: '#1A2A3A' }}>
                 Coordination continue
               </h3>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
@@ -173,39 +173,39 @@ export default function SystemeISI() {
       <section className="relative bg-white py-32">
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col gap-6 text-center max-w-4xl mx-auto mb-16">
-            <p className="text-sm tracking-widest uppercase" style={{ color: '#C29A3B' }}>
+            <p className="text-sm tracking-widest uppercase" style={{ color: '#C9A96E' }}>
               Pour Qui
             </p>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#003366' }}>
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#1A2A3A' }}>
               À qui s'adresse le{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>système ISI ?</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>système ISI ?</span>
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
             <div>
-              <h3 className="text-xl font-light mb-4" style={{ color: '#003366' }}>Entrepreneurs et dirigeants</h3>
+              <h3 className="text-xl font-light mb-4" style={{ color: '#1A2A3A' }}>Entrepreneurs et dirigeants</h3>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                 Qui souhaitent accéder au marché saoudien avec une approche structurée et crédible
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-light mb-4" style={{ color: '#003366' }}>Investisseurs et family offices</h3>
+              <h3 className="text-xl font-light mb-4" style={{ color: '#1A2A3A' }}>Investisseurs et family offices</h3>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                 Qui recherchent une lecture opérationnelle du marché avant toute décision d'allocation
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-light mb-4" style={{ color: '#003366' }}>Entreprises en expansion</h3>
+              <h3 className="text-xl font-light mb-4" style={{ color: '#1A2A3A' }}>Entreprises en expansion</h3>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                 Qui nécessitent un accompagnement de bout en bout pour leur développement international
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-light mb-4" style={{ color: '#003366' }}>Acteurs du Moyen-Orient</h3>
+              <h3 className="text-xl font-light mb-4" style={{ color: '#1A2A3A' }}>Acteurs du Moyen-Orient</h3>
               <p className="text-lg leading-relaxed" style={{ color: 'rgba(0,0,0,0.7)' }}>
                 Qui souhaitent accéder à des marchés partenaires (France, Suisse, Maroc) de manière sélective
               </p>
@@ -215,12 +215,12 @@ export default function SystemeISI() {
       </section>
 
       {/* CTA - Light Beige */}
-      <section className="relative py-32" style={{ backgroundColor: '#FAF0E6' }}>
+      <section className="relative py-32" style={{ backgroundColor: '#F8F9FA' }}>
         <div className="max-w-4xl mx-auto px-8">
-          <div className="bg-white rounded-lg p-12 border-l-4 text-center" style={{ borderColor: '#C29A3B' }}>
-            <h2 className="text-3xl md:text-4xl font-light mb-4" style={{ color: '#003366' }}>
+          <div className="bg-white rounded-lg p-12 border-l-4 text-center" style={{ borderColor: '#C9A96E' }}>
+            <h2 className="text-3xl md:text-4xl font-light mb-4" style={{ color: '#1A2A3A' }}>
               Présentez votre{" "}
-              <span className="font-serif italic" style={{ color: '#C29A3B' }}>projet</span>
+              <span className="font-serif italic" style={{ color: '#C9A96E' }}>projet</span>
             </h2>
             <p className="text-xl leading-relaxed mb-8" style={{ color: 'rgba(0,0,0,0.7)' }}>
               L'accès à nos programmes se fait après qualification.
@@ -229,7 +229,7 @@ export default function SystemeISI() {
               <Link
                 to="/#contact"
                 className="group px-8 py-4 text-white rounded-full transition-all flex items-center gap-2 justify-center hover:opacity-90"
-                style={{ backgroundColor: '#003366' }}
+                style={{ backgroundColor: '#1A2A3A' }}
               >
                 <span>Soumettre une demande</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -237,7 +237,7 @@ export default function SystemeISI() {
               <Link
                 to="/"
                 className="px-8 py-4 rounded-full border-2 transition-all flex items-center gap-2 justify-center hover:bg-black/5"
-                style={{ borderColor: '#C29A3B', color: '#003366' }}
+                style={{ borderColor: '#C9A96E', color: '#1A2A3A' }}
               >
                 <span>Retour à l'accueil</span>
               </Link>
