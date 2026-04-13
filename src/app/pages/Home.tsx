@@ -6,6 +6,7 @@ import { Vision2030Section } from "../components/Vision2030Section";
 import { ImmersionProgramSection } from "../components/ImmersionProgramSection";
 import { FoundersSection } from "../components/FoundersSection";
 import { PartnersSection } from "../components/PartnersSection";
+import { OnboardingTimeline } from "../components/OnboardingTimeline";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ServicesSection />
       <Vision2030Section />
       <ImmersionProgramSection />
+      <OnboardingTimeline />
       <FoundersSection />
       <PartnersSection />
     </>
