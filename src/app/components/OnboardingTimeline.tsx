@@ -58,8 +58,8 @@ export function OnboardingTimeline() {
           </p>
         </div>
 
-        {/* Timeline */}
-        <div className="relative max-w-5xl mx-auto w-full">
+        {/* Timeline — desktop zigzag */}
+        <div className="hidden md:block relative max-w-5xl mx-auto w-full">
 
           {/* Vertical center line */}
           <div
@@ -134,19 +134,8 @@ export function OnboardingTimeline() {
           </div>
         </div>
 
-        {/* Mobile version — stacked vertical list */}
-        <style>{`
-          @media (max-width: 768px) {
-            .timeline-desktop { display: none !important; }
-            .timeline-mobile { display: flex !important; }
-          }
-          @media (min-width: 769px) {
-            .timeline-mobile { display: none !important; }
-          }
-        `}</style>
-
         {/* Mobile fallback */}
-        <div className="timeline-mobile hidden flex-col gap-6 max-w-xl mx-auto w-full">
+        <div className="flex flex-col md:hidden gap-6 max-w-xl mx-auto w-full">
           {steps.map((step, index) => (
             <div key={index} className="flex gap-4">
               <div className="flex flex-col items-center">
